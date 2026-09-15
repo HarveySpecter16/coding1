@@ -1,0 +1,13 @@
+body {
+  background-color: DarkCyan
+  fond.family: Ariel, sans-serif;
+  text-align: center;
+  padding: 60px;
+}
+
+h1 {
+  font-size: 80px;
+  color: Gold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px Red;
+}
