@@ -15,5 +15,24 @@ h1 {
 img{
   border-radius: 8px;
   padding: 20px;
-  border-color: Black;
 }
+
+a:link{
+      background-color: Gold;
+      text-decoration: none;
+}
+
+a:visted{
+      background-color: Green;
+      text-decoration: none;
+}
+
+a:hover{
+      background-color: Pink;
+      text-decoration: underline;
+}
+
+a:active {
+      background-color: Purple;
+}
+  
