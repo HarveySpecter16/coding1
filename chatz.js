@@ -34,3 +34,7 @@ function handleUserInput(event) {
     chat.innerHTML += `<p><strong>Waddle:</strong> ${response}</p>`;
   }
 }
+
+function resetChat() {
+  document.getElementById("chat").innerHTML = "";
+}
