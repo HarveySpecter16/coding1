@@ -1,6 +1,6 @@
 const chatbotResponses = {
   "hello": "Whats up? Jaylen here.",
-  "how are you?": "I'm fired up to score some touchdowns this weekend",
+  "how are you": "I'm fired up to score some touchdowns this weekend",
   "bye": "See ya on Sunday, get ready to watch me cook!",
   "dolphins": "Come on, dont remind me about my former team :C",
   "broncos": "We're winning the super bowl, and I will score some touchdowns for us",
