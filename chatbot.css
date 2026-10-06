@@ -69,3 +69,8 @@ img {
           <a href="chatbot.html">Chatbot</a>
           <a href="snake.html">Snake</a>
         </div>
+
+img {
+  width: 150px;
+  height: auto;
+}
