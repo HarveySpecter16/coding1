@@ -60,17 +60,31 @@ button:hover {
   color: DarkCyan;
 }
 
-img {
-  border-radius: 8px;
-}
-
- <div>
-          <a href="links.html">Links</a>
-          <a href="chatbot.html">Chatbot</a>
-          <a href="snake.html">Snake</a>
-        </div>
-
+/* Waddle image */
 img {
   width: 150px;
   height: auto;
+  border-radius: 8px;
+}
+
+/* Navigation links */
+.navigation {
+  margin-top: 20px;
+}
+
+.navigation a {
+  display: inline-block;
+  background-color: Gold;
+  color: Black;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid Black;
+}
+
+.navigation a:hover {
+  background-color: Pink;
+  transform: scale(1.05);
 }
