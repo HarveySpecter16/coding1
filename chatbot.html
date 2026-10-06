@@ -1,11 +1,31 @@
 <html>
+    <head>
         <title>Waddle GPT</title>
         <link rel="stylesheet" href="chatbot.css">
+    </head>
+
+    <body>
         <center>
-              <h1><strong>Waddle Chat</strong></h1>
-              <img src="nuevowaddle.jpg">
-              <div id="chat"></div>
-              <input type="text" id="userInput" placeholder="Ask waddle something..." onkeypress="handleUserInput(event)">
-              <script src="chatz.js"></script>
+            <h1><strong>Waddle Chat</strong></h1>
+
+            <img src="nuevowaddle.jpg">
+
+            <div id="chat"></div>
+
+            <input 
+                type="text" 
+                id="userInput" 
+                placeholder="Ask Waddle something..." 
+                onkeypress="handleUserInput(event)"
+            >
+
+            <div class="navigation">
+                <a href="links.html">Links</a>
+                <a href="chatbot.html">Chatbot</a>
+                <a href="snake.html">Snake</a>
+            </div>
+
+            <script src="chatz.js"></script>
         </center>
+    </body>
 </html>
