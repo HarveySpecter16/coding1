@@ -6,6 +6,6 @@ const randomIndex = Math.floor(Math.random() * words.length);
 
 const randomWord = words [randomIndex];
 
-document.getElementByID("wordDisplay").innerText = randomWord;
+document.getElementById("wordDisplay").innerText = randomWord;
 
 }
