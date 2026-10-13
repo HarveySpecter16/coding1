@@ -13,7 +13,7 @@ h1 {
 
 #chat {
   width: 450px;
-  height: 400px;
+  height: 200px;
   margin: 20px auto;
   border: 4px solid Gold;
   background-color: white;
@@ -59,14 +59,12 @@ button:hover {
   color: DarkCyan;
 }
 
-/* Waddle image */
 img {
   width: 150px;
   height: auto;
   border-radius: 8px;
 }
 
-/* Navigation links */
 .navigation {
   margin-top: 20px;
 }
