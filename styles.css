@@ -61,8 +61,24 @@ button:hover {
   background-color: Pink;
   transform: scale(1.05);
 }
+button {
+  background-color: Gold;
+  color: Black;
+  padding: 15px 25px;
+  border: 3px solid Black;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
 
-{
+button:hover {
+  background-color: Pink;
+  transform: scale(1.05);
+}
+
+#wordBox {
   width: 300px;
   min-height: 80px;
   margin: 25px auto;
@@ -75,8 +91,9 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
- 
-{
+
+/* The generated word */
+#wordDisplay {
   color: DarkCyan;
   font-size: 28px;
   font-weight: bold;
