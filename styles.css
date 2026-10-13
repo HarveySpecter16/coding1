@@ -92,7 +92,6 @@ button:hover {
   align-items: center;
 }
 
-/* The generated word */
 #wordDisplay {
   color: DarkCyan;
   font-size: 28px;
