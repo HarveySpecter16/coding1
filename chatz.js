@@ -8,6 +8,17 @@ const chatbotResponses = {
   "nfl": "I don't care about the rest of the NFL, only my Broncos",
   "afc west": "These are my rivals, I know we'll beat them all this season",
   "fantasy": "If you put me on your starting lineup in fantasy I gurantee you points!",
+  "homework": "You gotta do your homework yourself, it will help you get better grades!",
+  "what can you do": "I can answer simple NFL related questions",
+  "football": "Thats my favorite sport",
+  "hi": "Whats up",
+  "name": "My name is Jaylen",
+  "where are you from": "I was born in Houston, Texas",
+  "joke": "Why did the american football team go to the bank? To get their quarterback! JAJAJA",
+  "thanks": "Of course!",
+  "thank you": "No problem!",
+  "who are you": "I'm Jaylen, what can i help you with",
+  "coding": "That's my favorite subject",
   "default": "I dont get what you said, talk to me about football big bro"
 };
 
