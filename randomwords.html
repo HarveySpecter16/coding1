@@ -1,25 +1,29 @@
 
-        <link rel="stylesheet" href="styles.css">
-      
-      <div>
-          <a href="index.html">Home</a>
-          <a href="links.html">Links</a>
-          <a href="chatbot.html">Chatbot</a>
-          <a href="snake.html">Snake</a>
-        </div>
 <!DOCTYPE html>
-<html>
-  <link rel="stylesheet" href="styles.css">
+<html lang="en">
 <head>
-  <title>Random Word Generator</title>
+    <title>Random Word Generator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <h1>Random Word Generator</h1>
-  <button onclick="generateRandomWord()">Generate Random Word</button>
-  <p id="wordDisplay"></p>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="links.html">Links</a>
+        <a href="chatbot.html">Chatbot</a>
+        <a href="snake.html">Snake</a>
+    </div>
 
-  <script src="randomWords.js"></script>
+    <h1>Random Word Generator</h1>
+
+    <button onclick="generateRandomWord()">
+        Generate Random Word
+    </button>
+
+    <div id="wordBox">
+        <p id="wordDisplay">Your random word will appear here!</p>
+    </div>
+
+    <script src="randomWords.js"></script>
 </body>
 </html>
-   
